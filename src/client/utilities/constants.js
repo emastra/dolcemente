@@ -1,5 +1,5 @@
 const prod = {
-    API_URL: 'http://localhost:3000/api/products', // will be https://myapp.herokuapp.com
+    API_URL: 'https://serene-beyond-47829.herokuapp.com'
 };
 
 const dev = {
