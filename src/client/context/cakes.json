@@ -1,0 +1,166 @@
+[
+    {
+        "id": "01",
+        "name": "Torta di mele",
+        "price": 15,
+        "description": "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et dolore magna aliqua.",
+        "ingredients": [
+            {
+                "id": "1",
+                "name": "Mele",
+                "quantity": 930,
+                "unit": "gr"
+            },
+            {
+                "id": "2",
+                "name": "Farina 00",
+                "quantity": 250,
+                "unit": "gr"
+            },
+            {
+                "id": "3",
+                "name": "Latte intero",
+                "quantity": 200,
+                "unit": "ml"
+            },
+            {
+                "id": "4",
+                "name": "Limoni",
+                "quantity": 1,
+                "unit": ""
+            },
+            {
+                "id": "5",
+                "name": "Burro",
+                "quantity": 100,
+                "unit": "gr"
+            }
+        ]
+    },
+    {
+        "id": "02",
+        "name": "Torta al cioccolato",
+        "price": 21,
+        "description": "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et dolore magna aliqua.",
+        "ingredients": [
+            {
+                "id": "1",
+                "name": "Cioccolato fondente",
+                "quantity": 150,
+                "unit": "g"
+            },
+            {
+                "id": "2",
+                "name": "Farina 00",
+                "quantity": 180,
+                "unit": "g"
+            },
+            {
+                "id": "3",
+                "name": "Uova",
+                "quantity": 6,
+                "unit": ""
+            },
+            {
+                "id": "4",
+                "name": "Lievito in polvere per dolci",
+                "quantity": 8,
+                "unit": "g"
+            },
+            {
+                "id": "5",
+                "name": "Cacao amaro in polvere",
+                "quantity": 50,
+                "unit": "g"
+            },
+            {
+                "id": "6",
+                "name": "Zucchero",
+                "quantity": 180,
+                "unit": "g"
+            }
+        ]
+    },
+    {
+        "id": "03",
+        "name": "Torta della nonna",
+        "price": 18,
+        "description": "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et dolore magna aliqua.",
+        "ingredients": [
+            {
+                "id": "1",
+                "name": "Uova",
+                "quantity": 2,
+                "unit": ""
+            },
+            {
+                "id": "2",
+                "name": "Zucchero",
+                "quantity": 160,
+                "unit": "g"
+            },
+            {
+                "id": "3",
+                "name": "Scorza di limone",
+                "quantity": 1,
+                "unit": ""
+            },
+            {
+                "id": "4",
+                "name": "Farina 00",
+                "quantity": 450,
+                "unit": "g"
+            },
+            {
+                "id": "5",
+                "name": "Burro",
+                "quantity": 200,
+                "unit": "g"
+            }
+        ]
+    },
+    {
+        "id": "04",
+        "name": "Torta margherita",
+        "price": 15,
+        "description": "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et dolore magna aliqua.",
+        "ingredients": [
+            {
+                "id": "1",
+                "name": "Farina 00",
+                "quantity": 90,
+                "unit": "g"
+            },
+            {
+                "id": "2",
+                "name": "Zucchero",
+                "quantity": 150,
+                "unit": "g"
+            },
+            {
+                "id": "3",
+                "name": "Sale fino",
+                "quantity": 1,
+                "unit": "g"
+            },
+            {
+                "id": "4",
+                "name": "Burro",
+                "quantity": 90,
+                "unit": "g"
+            },
+            {
+                "id": "5",
+                "name": "Fecola di patate",
+                "quantity": 50,
+                "unit": "g"
+            },
+            {
+                "id": "6",
+                "name": "Lievito in polvere per dolci",
+                "quantity": 3,
+                "unit": "g"
+            }
+        ]
+    }
+]

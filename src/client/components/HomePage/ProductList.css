@@ -1,0 +1,14 @@
+#products {
+	padding-bottom: 30px;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 1024px) {
+	#products {
+		background-attachment: scroll;
+	}
+}

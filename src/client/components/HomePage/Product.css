@@ -1,0 +1,32 @@
+.card {
+	border-radius: 3px;
+	border: 0;
+	box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+	margin-bottom: 30px;
+}
+
+.card-body {
+	padding-top: 12px;
+}
+
+.card-title {
+	font-weight: 700;
+	text-align: center;
+}
+
+.card-title a {
+	color: #743e1d;
+}
+
+.card-title a:hover {
+	color: #fd680e;
+}
+
+.card-text {
+	color: #5e5e5e;
+}
+
+.price {
+    color: #743e1d;
+    font-weight: bold;
+}
