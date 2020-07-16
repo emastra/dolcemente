@@ -4,12 +4,6 @@ const generateDate = (timestamp) => {
   
     const day = d.getDate();
     const month = months[d.getMonth()];
-    // const year = d.getFullYear();
-    // let hours = d.getHours();
-    // let minutes = d.getMinutes();
-  
-    // if (hours < 10) hours = `0${hours}`;
-    // if (minutes < 10) minutes = `0${minutes}`;
   
     return `${day} ${month}`;
 }
