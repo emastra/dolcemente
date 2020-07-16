@@ -1,5 +1,5 @@
 const prod = {
-    API_URL: 'https://serene-beyond-47829.herokuapp.com'
+    API_URL: 'https://serene-beyond-47829.herokuapp.com/api/products'
 };
 
 const dev = {
