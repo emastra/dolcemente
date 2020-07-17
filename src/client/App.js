@@ -30,7 +30,4 @@ class App extends Component {
     }
 }
 
-// nested routes: https://stackoverflow.com/questions/41474134/nested-routes-with-react-router-v4-v5
-// OR bootstrap tabs
-
 export default App;

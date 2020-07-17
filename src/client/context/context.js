@@ -26,16 +26,14 @@ class ContextProvider extends Component {
         });
     }
 
-    // Instantiate product client for requests to server
+    // api client
     client = new Client(config.API_URL);
 
     handleChange = (event) => {
         const name = event.target.name;
         const value = event.target.value;
 
-        // deep copy adminFields from state
         const adminFields = Object.assign({}, this.state.adminFields);
-        // update adminFields
         adminFields[name] = value;
 
         this.setState({ adminFields });
@@ -47,14 +45,13 @@ class ContextProvider extends Component {
         const { selectedProduct, quantityInput } = this.state.adminFields;
         const cake = this.state.cakeList.filter(cake => cake.id == selectedProduct)[0];
 
-        const product = {
+        const newProduct = {
             name: cake.name,
             quantity: quantityInput,
             price: cake.price
         }
 
-        // post new product
-        await this.client.postProduct(product);
+        await this.client.postProduct(newProduct);
 
         // get updated product list
         const products = await this.client.getProducts();

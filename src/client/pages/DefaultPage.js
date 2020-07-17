@@ -11,9 +11,11 @@ export default function Default() {
             <section>
                 <div className='container'>
                     <div className='section-title'>
-                        <Link to='/'>
-                            <h5>Torna alla Homepage</h5>
-                        </Link>
+                        <h5>
+                            <Link to='/'>
+                                Torna alla Homepage
+                            </Link>
+                        </h5>
                     </div>
                 </div>
             </section>
